@@ -1,0 +1,39 @@
+C:\code\discord bot with c#\obj\Debug\net8.0\discord bot with c#.csproj.AssemblyReference.cache
+C:\code\discord bot with c#\obj\Debug\net8.0\discord bot with c#.GeneratedMSBuildEditorConfig.editorconfig
+C:\code\discord bot with c#\obj\Debug\net8.0\discord bot with c#.AssemblyInfoInputs.cache
+C:\code\discord bot with c#\obj\Debug\net8.0\discord bot with c#.AssemblyInfo.cs
+C:\code\discord bot with c#\obj\Debug\net8.0\discord bot with c#.csproj.CoreCompileInputs.cache
+C:\code\discord bot with c#\bin\Debug\net8.0\discord bot with c#.exe
+C:\code\discord bot with c#\bin\Debug\net8.0\discord bot with c#.deps.json
+C:\code\discord bot with c#\bin\Debug\net8.0\discord bot with c#.runtimeconfig.json
+C:\code\discord bot with c#\bin\Debug\net8.0\discord bot with c#.dll
+C:\code\discord bot with c#\bin\Debug\net8.0\discord bot with c#.pdb
+C:\code\discord bot with c#\bin\Debug\net8.0\Discord.Net.Commands.dll
+C:\code\discord bot with c#\bin\Debug\net8.0\Discord.Net.Core.dll
+C:\code\discord bot with c#\bin\Debug\net8.0\Discord.Net.Interactions.dll
+C:\code\discord bot with c#\bin\Debug\net8.0\Discord.Net.Rest.dll
+C:\code\discord bot with c#\bin\Debug\net8.0\Discord.Net.Webhook.dll
+C:\code\discord bot with c#\bin\Debug\net8.0\Discord.Net.WebSocket.dll
+C:\code\discord bot with c#\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\code\discord bot with c#\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\code\discord bot with c#\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\code\discord bot with c#\bin\Debug\net8.0\System.Interactive.Async.dll
+C:\code\discord bot with c#\bin\Debug\net8.0\System.Linq.Async.dll
+C:\code\discord bot with c#\bin\Debug\net8.0\System.Reactive.dll
+C:\code\discord bot with c#\obj\Debug\net8.0\discord .C559CA45.Up2Date
+C:\code\discord bot with c#\obj\Debug\net8.0\discord bot with c#.dll
+C:\code\discord bot with c#\obj\Debug\net8.0\refint\discord bot with c#.dll
+C:\code\discord bot with c#\obj\Debug\net8.0\discord bot with c#.pdb
+C:\code\discord bot with c#\obj\Debug\net8.0\discord bot with c#.genruntimeconfig.cache
+C:\code\discord bot with c#\obj\Debug\net8.0\ref\discord bot with c#.dll
+C:\code\discord bot with c#\obj\Debug\net8.0\discord bot with c#.sourcelink.json
+C:\code\discord bot with c#\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+C:\code\discord bot with c#\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\code\discord bot with c#\bin\Debug\net8.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\code\discord bot with c#\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Json.dll
+C:\code\discord bot with c#\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\code\discord bot with c#\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\code\discord bot with c#\bin\Debug\net8.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\code\discord bot with c#\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\code\discord bot with c#\bin\Debug\net8.0\DotNetEnv.dll
+C:\code\discord bot with c#\bin\Debug\net8.0\Sprache.dll
