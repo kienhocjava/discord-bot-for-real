@@ -1,13 +1,16 @@
-﻿using System.Diagnostics.CodeAnalysis;
+using System.Diagnostics.CodeAnalysis;
 using System.Diagnostics.Contracts;
 using System.Security.Cryptography.X509Certificates;
 using System.Threading.Channels;
+using System.Threading.Tasks;
+using System.Net;
 using Discord;
 using Discord.Rest;
 using Discord.WebSocket;
 using Microsoft.VisualBasic;
 using Microsoft.Extensions.Configuration;
 using DotNetEnv;
+using System.Text.Encodings.Web;
 namespace habi_bot {
     class Program {
         private readonly DiscordSocketConfig config = new DiscordSocketConfig {
@@ -29,6 +32,7 @@ namespace habi_bot {
 
             await client.LoginAsync(TokenType.Bot, token);
             await client.StartAsync();
+            StartHttpServer();
             await Task.Delay(-1);
         }
 
@@ -78,7 +82,7 @@ namespace habi_bot {
         
         private async Task messageReceived(SocketMessage message) {
             if(message.Author.IsBot) return;
-            Console.WriteLine($"Received a message: {message.Content} from {message.Author.Username}");
+            
             
             if (message.Author.IsBot) return;
             if (message.Channel is IDMChannel) {
@@ -89,9 +93,31 @@ namespace habi_bot {
             if (message is not IUserMessage userMessage || message.Author.IsBot) return;
             if (message.Content == "hello") {
                 await message.Channel.SendMessageAsync("lo con cac");
+                await message.Channel.SendMessageAsync("goi con cac tao <:fuckyou:1119944719326265355>");
             }
             
         }
+        
+        private static void StartHttpServer() {
+            HttpListener listener = new HttpListener();
+            listener.Prefixes.Add("http://*:8080/");
+            listener.Start();
+            Console.WriteLine("http server has started");
+            
+            Task.Run(() => {
+                while (true)
+                {
+                    HttpListenerContext context = listener.GetContext();
+                    HttpListenerResponse response = context.Response;
+                    string responseString = "<html><body> Bot is online right now </body></html>";
+                    byte[] buffer = System.Text.Encoding.UTF8.GetBytes(responseString);
+                    response.ContentLength64 = buffer.Length;
+                    response.OutputStream.Write(buffer, 0, buffer.Length);
+                    response.OutputStream.Close();
+                }
+            });
+        }
+
 
         static async Task Main(string[] arg) {
             var Program = new Program();
